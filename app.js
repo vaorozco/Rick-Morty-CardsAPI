@@ -33,30 +33,9 @@ fetch('https://rickandmortyapi.com/api/character', {
 
 .catch(error => alert("ERROR"));
 
-       /* const card =    `<div class="card bg-dark m-1" style="width: 18rem;">
-
-                            <img src=${character.image} class="card-img-top" alt="...">
-
-                            <div class="card-body">
-
-                                <h5 class="card-title fw-bold mb-3">${character.name}</h5>
-
-                                <p class="card-text">Specie: ${character.species}</p>
-
-                                <p class="card-text">Gender: ${character.gender}</p>
-
-                                <p class="card-text">Location: ${character.location.name}</p>
-
-                                <p class="card-text">Status: ${character.status}</p>
-
-                            </div>
-
-                        </div>`;
-
-        dataResponse.innerHTML += card;
-
-    });
-
-})
-
-.catch(error => alert("ERROR"));*/
+var splide = new Splide( '.splide', {
+    perPage: 3,
+    rewind : true,
+  } );
+  
+  splide.mount();
