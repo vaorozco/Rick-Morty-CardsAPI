@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body{
-    background-color: midnightblue;
+    background-image: url(./background.jpg);
+    background-size: cover;
     color: #ffffff;
     font-family: var(--body-font);
     margin: 0;
@@ -19,14 +20,12 @@ body{
 }
 
 .cards-section{
-    padding: 10px;
+    padding: 50px;
     height: calc(100vh - 89.16px);
 }
 
 .cards-container{
-    padding: 20px;
     display: flex;
-    justify-content: space-evenly;
 }
 
 .card{
@@ -34,6 +33,10 @@ body{
     width: 300px;
     padding: 10px;
     border-radius: 10px;
+    margin-right: 10px;
+    height: fit-content;
+    backdrop-filter: blur(5px);
+    color: midnightblue;
 }
 
 .card h3{
@@ -47,13 +50,14 @@ body{
     font-size: 15px;
     border: 0px solid transparent;
     cursor: pointer;
-    background-color: aqua;
-    color: midnightblue;
+    background-color: midnightblue;
+    color: aqua;
 }
 
 .card-add-button:hover{
     cursor: pointer;
     background-color: yellow;
+    color: midnightblue;
 }
 
 .card-image{
@@ -63,7 +67,7 @@ body{
 
 .card-like-button{
     background-color: transparent;
-    color: aqua;
+    color: midnightblue;
     font-size: 25px;
 }
 
