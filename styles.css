@@ -11,6 +11,8 @@ body{
     font-weight: 600;
     letter-spacing: 5px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .title{
@@ -19,16 +21,16 @@ body{
     text-align: center;
 }
 
-.cards-section{
+.kards-section{
     padding: 50px;
     height: calc(100vh - 89.16px);
 }
 
-.cards-container{
+.kards-container{
     display: flex;
 }
 
-.card{
+.kard{
     border: 2px solid red;
     width: 300px;
     padding: 10px;
@@ -39,12 +41,12 @@ body{
     color: midnightblue;
 }
 
-.card h3{
+.kard h3{
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
-.card-add-button{
+.kard-add-button{
     height: 35px;
     border-radius: 20px;
     font-size: 15px;
@@ -54,29 +56,29 @@ body{
     color: aqua;
 }
 
-.card-add-button:hover{
+.kard-add-button:hover{
     cursor: pointer;
     background-color: yellow;
     color: midnightblue;
 }
 
-.card-image{
+.kard-image{
     width: 300px;
     height: 230px;
 }
 
-.card-like-button{
+.kard-like-button{
     background-color: transparent;
     color: midnightblue;
     font-size: 25px;
 }
 
-.card-like-button:hover{
+.kard-like-button:hover{
     color: yellow;
     cursor: pointer;
 }
 
-.card-buttons{
+.kard-buttons{
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -102,7 +104,7 @@ body{
   background: #f2f2f2;
 }
 
-section{
+.section{
   position: relative;  
   height: 450px;
   width: 1075px;
